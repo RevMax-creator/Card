@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Parkinsans", sans-serif;
+
+}
+
+:root {
+    --primary-color: pink;
+    --secondary-color: #fa3b5b;
+    --text-color: #ffffff;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    height: 25px;
+    padding: 5px 16px;
+    background: var(--secondary-color);
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    color: var(--text-color, black);
+    list-style-type: none;
+    padding: 0px 14px;
+    display: inline;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+main {
+    background-color: #000;
+    padding: 10px;
+}
+
+.container {
+    background: greenyellow;
+    text-align: center;
+    padding: 12px 10px;
+    margin: 14px 14px;
+}
+
+.box1 {
+    width: 45%;
+    height: 80vh;
+    background: var(--primary-color);
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.box2 {
+    width: 45%;
+    height: 80vh;
+    background: var(--secondary-color);
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.message p {
+    color: var(--text-color);
+    text-align: center;
+    margin: 18px;
+    padding: 15px;
+    font-size: 34px;
+    border: 5px double #ffff;
+    border-radius: 20px;
+}
+
+.orange-box {
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+}
+
+footer {
+    background-color: beige;
+    height: 85px;
+    padding: 15px;
+}
+
+footer ul {
+    list-style: none;
+    float: right
+}
