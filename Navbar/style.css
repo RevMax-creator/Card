@@ -1,0 +1,40 @@
+/* Global variable */
+:root {
+    --primary-color: blue;
+    --secondary-color: darkblue;
+    --pad: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 5px 10px;
+    background-color: var(--primary-color);
+}
+
+nav ul {
+    display: inline;
+    justify-content: space-between;
+    padding: 0px var(--pad);
+}
+
+nav ul:hover {
+    color: var(--secondary-color);
+}
+
+nav form {
+    float: inline-end;
+}
+
+nav button {
+    padding: 0px 3px;
+}
+
+nav button:hover {
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    opacity: .8;
+}
