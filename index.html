@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0.15);
+        }
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            color: grey;
+        }
+
+        .card {
+            width: 300px;
+            padding: 5px;
+            border: 2px solid rgba(15, 15, 15, 0.082);
+            text-align: justify;
+            border-radius: 12px;
+            background: #fff;
+        }
+
+        .card>h2 {
+            color: rgba(29, 28, 28, 0.86);
+        }
+
+        .image {
+            padding: 5px;
+            height: 216.5px;
+            width: 290px;
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrCxL0xYDCUqFAlFC34SwFHkrq2lg5QToYaIIoZTRdPMebaD1C) no-repeat center center; 
+            background-size: 100% 134%;
+            border-radius: 12px;
+        }
+
+        .list {
+            padding: 22px 10px 15px;
+            font-size: 14px;
+        }
+
+        .list>span {
+            padding: 4px 10px;
+            border: 2px solid rgba(15, 15, 15, 0.09);
+            border-radius: 35px
+        }
+
+        .content {
+            padding: 10px;
+        }
+
+        .box {
+            text-align: center;
+        }
+
+        .box button {
+            font-size: 11px;
+            padding: 11px 25px;
+            border-style: none;
+            border-radius: 20px;
+            background-color: rgba(114, 211, 218, 0.39);
+            color: rgb(0, 119, 255);
+        }
+
+        .box button:hover {
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+        </div>
+        <div class="list">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Lago di Braies</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore voluptates molestias rerum vero,
+                dolores
+                minus delectus vel temporibus, corrupti, fugit consectetur eveniet magni voluptatibus.
+            </p>
+        </div>
+        <div class="box">
+            <button>Read more</button>
+        </div>
+    </div>
+</body>
+
+</html>
